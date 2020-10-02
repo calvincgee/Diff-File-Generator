@@ -318,8 +318,8 @@ bool applyDiff(istream&fold, istream& fdiff, ostream& fnew) {
 }
 
 int main() {
-	string txt1 = "warandpeace1.txt";
-    string txt2 = "warandpeace2.txt";
+	string txt1 = "old_code.txt";
+    string txt2 = "current_code.txt";
 
 	ifstream fold(txt1);
 	ifstream fnew(txt2);
