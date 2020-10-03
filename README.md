@@ -14,9 +14,8 @@ The function applyDiff() takes in the original file and the diff file and recons
 - The createDiff() program draws from the "Input Text Files" folder so place your original and new files into this folder or choose from some examples provided: an excerpt from War and Peace or some source code from a regex git project made by Fabrice Bellard.
 - Next, navigate to diff.cpp in the src folder. Change the file names to reflect the two files you would like to create a diff of.
 
-`string before_file = "fileNameHere1.txt";`
-
-`string after_file = "fileNameHere2.txt";`
+```string before_file = "fileNameHere1.txt";
+string after_file = "fileNameHere2.txt";```
   
 - Next build the file using a cl.exe command. Finally, run the diff.exe file created. In the "Ouput Text Files" folder is diff.txt which will contain the new diff file, and newText.txt which contains the recreated new file which should be identical to the second file input.
 
