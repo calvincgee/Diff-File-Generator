@@ -9,7 +9,7 @@
 				"/Zi",
 				"/EHsc",
 				"/Fe:",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"${workspaceFolder}\\src\\diff.exe",
 				"${workspaceFolder}\\src\\*.cpp"
 			],
 			"options": {
