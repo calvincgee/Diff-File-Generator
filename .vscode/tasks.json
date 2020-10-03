@@ -10,7 +10,7 @@
 				"/EHsc",
 				"/Fe:",
 				"${fileDirname}\\${fileBasenameNoExtension}.exe",
-				"${workspaceFolder}\\*.cpp"
+				"${workspaceFolder}\\src\\*.cpp"
 			],
 			"options": {
 				"cwd": "${workspaceFolder}"
